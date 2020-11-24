@@ -1,0 +1,12 @@
+{
+  "Id": "ID",
+  "Created at": "创建时间",
+  "Updated at": "更新时间",
+  "name": "名字",
+  "Order": "排序",
+  "Title": "标题",
+  "Desc": "描述",
+  "Is show": "显示",
+  "MenuClassMenus": "资源菜单",
+  "email": "邮箱"
+}

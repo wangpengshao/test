@@ -1,0 +1,346 @@
+
+/*作品详情*/
+.workWriteMes{
+  background:#fff;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.workWriteIn{
+  overflow: hidden;
+  padding:16px 0;
+}
+
+.writeLeft{
+  margin-left: 46px;
+}
+
+.workNm{
+  font-size: 24px;
+  color: #333;
+  padding-bottom: 10px;
+}
+
+.workHint{
+  font-size: 16px;
+  color: #999999;
+  padding-bottom: 10px;
+}
+
+.workTm{
+  margin-right: 36px;
+}
+
+.workNumArea,.writeRight,.hisMesGroup{
+  display:-webkit-flex;
+  display:flex;
+}
+
+.workNumArea{
+  width: 350px;
+  margin-left: -26px;
+}
+
+.workNumIn{
+  width:33.33%;
+  font-size: 14px;
+  color: #aaaaaa;
+  border-right: 1px solid #e5e5e5;
+  text-align: center;
+}
+
+.workNumIn:last-of-type{
+  border-right: none;
+}
+
+.numIcon{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display:inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.videoIcon{
+  width: 18px;
+  height: 18px;
+  background-image: url('../images/video.png');
+  margin-top: -6px;
+}
+.rankNumIcon{
+  width: 18px;
+  height: 18px;
+  background-image: url(../images/rankIcon.png);
+  margin-top: -6px;
+}
+
+.likeNumIcon{
+  width: 18px;
+  height: 15px;
+  background-image: url(../images/likeIcon02.png);
+  margin-top: -3px;
+}
+
+.lookNumIcon{
+  width: 22px;
+  height: 14px;
+  background-image: url(../images/lookIcon02.png);
+  margin-top: -3px;
+}
+.writeRight,.hisMesGroup{
+  align-items:center;/*垂直居中*/
+}
+.writeRight{
+  margin-right: 46px;
+  border-left: 1px solid #eee;
+  padding-left: 44px;
+}
+
+.writeHead{
+  width: 102px;
+  height: 102px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right:26px;
+}
+
+.writeHint{
+  font-size: 18px;
+  color:#333;
+}
+
+.writeNm{
+  font-size: 28px;
+  color:#222;
+}
+
+.workDetAreaIn{
+  padding:34px 46px;
+  font-size: 16px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.workDetAreaIn p{
+  text-indent: 2em;
+  line-height: 1.9;
+}
+
+.workImg{
+  margin:30px auto;
+}
+
+.voteArea{
+  text-align: center;
+  display:block;
+  margin-top: 50px;
+}
+
+.voteAreaIn{
+   background:#e83e33;
+   color:#fff;
+   display:inline-block;
+   text-align: center;
+   padding:14px 50px;
+   -webkit-border-radius: 45px;
+   -moz-border-radius: 45px;
+   -ms-border-radius: 45px;
+   -o-border-radius: 45px;
+   border-radius: 45px;
+}
+
+
+.voteHeart{
+  width:26px;
+  height: 20px;
+  background:url(../images/voteIcon.png) no-repeat;
+  background-size: 100% 100%;
+  display:inline-block;
+  vertical-align: middle;
+   margin: -5px 10px 0 0;
+}
+.ftSize22{
+  font-size: 22px;
+}
+
+
+.shareAreaIn{
+  color:#333333;
+  font-size: 20px;
+  border: 2px solid #cccccc;
+  -webkit-border-radius: 34px;
+   -moz-border-radius: 34px;
+   -ms-border-radius: 34px;
+   -o-border-radius:34px;
+   border-radius: 34px;
+   padding:14px 26px;
+   margin-top: -72px;
+}
+
+.shareIcon{
+  width: 20px;
+  height: 20px;
+  background:url(../images/zpShare.png) no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+  vertical-align: middle;
+   margin: -5px 10px 0 0;
+}
+
+.leaveMesTit,.lveMesInpArea,.hisMesArea{
+  padding:20px 46px;
+  border-bottom:1px solid #eeeeee;
+}
+
+.leaveMesTit{position:relative;}
+
+.leaveMesTitIn::before {
+  content: '';
+  width:4px;
+  height:16px;
+  background:#000000;
+  display:inline-block;
+  vertical-align: middle;
+  margin:-2px 6px 0 0;
+}
+
+.lveMesFm{
+  padding:20px 0;
+  overflow: hidden;
+}
+
+.lveMesLine{
+  border: 1px solid #dddddd;
+  background:#f5f5f5;
+  padding:14px 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.lveMesLine input{
+   font-size: 16px;
+}
+.lveMesFm input{
+  width:100%;
+   background:none;
+}
+
+.sendMesLine{
+  background:#e83e33;
+  padding:10px 46px;
+  float:right;
+   -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sendMesLine input{
+  font-size: 18px;
+  color: #fff;
+}
+
+.hisMesAreaIn{
+    padding:20px 0;
+}
+
+.allMesTit{
+  font-size: 18px;
+  color:#666666;
+}
+
+.mesNum{padding-left: 10px;}
+
+.hisMesGroup{
+  padding:40px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.hisMesHead{
+  margin-right: 16px;
+}
+
+.hisMesIn{font-size: 16px;width:90%;}
+.hisMesTm{color:#aaa;padding-left: 30px;}
+.hisMesDet{color:#666;}
+
+.hisMesHead{
+    width: 68px;
+    height:68px;
+     -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+
+.leaveMesArea{
+  margin-bottom: 70px;
+}
+
+.leaveMesTitIn{font-size: 18px;}
+
+
+.colorRed{color:#e83e33;}
+
+
+
+@media (max-width:750px) {
+  
+/*作品详情*/
+.workWriteIn{padding: .16rem 0;}
+.writeLeft{margin-left: .46rem;}
+.workNm{font-size: .3rem;}
+.workHint{font-size: .22rem;}
+.workTm{margin-right: 0.36rem;}
+.workNumArea{ width: 3.5rem;margin-left: -.1rem; }
+.writeRight{margin-right: .46rem; padding-left:0.44rem;height: 1.5rem;}
+.writeHead{width: 1.02rem;height:1.02rem;margin-right: .26rem;}
+.writeNm{font-size: 0.28rem;}
+.writeHint{font-size: 0.22rem;}
+.ftSize38{font-size: .38rem;}
+.workNumIn{font-size: 0.22rem;}
+.rankNumIcon{margin-top: -.06rem;}
+.rankNumIcon{width:0.2rem;height:0.2rem;}
+.likeNumIcon{width:.2rem;height:0.17rem;}
+.lookNumIcon{width:0.24rem;height:0.16rem;}
+.numIcon{margin-right: .1rem;}
+.workDetAreaIn{padding:0.34rem 0.46rem;font-size: 0.24rem;margin-bottom: 0.16rem;}
+.workImg{margin:0.3rem auto;}
+.voteArea{margin-top: 0.5rem;}
+.voteAreaIn{padding:0.1rem 0.52rem;}
+.voteHeart{width: 0.26rem;height:0.2rem;margin:-0.05rem 0.1rem 0 0;}
+.ftSize22{font-size: 0.26rem;}
+.ftSize18{font-size: 0.22rem;}
+.shareArea{display:block;float:initial; text-align: center;}
+.shareAreaIn{font-size: .24rem;padding:0.14rem 0.26rem;display:inline-block;margin-top:.3rem; border-width: .02rem;}
+.shareIcon{width:0.2rem;height:0.2rem;margin:-0.05rem 0.1rem 0 0;}
+.leaveMesTit, .lveMesInpArea, .hisMesArea{padding:0.2rem 0.46rem;}
+.leaveMesTitIn::before{width:0.04rem;height:0.22rem;margin:-0.02rem 0.06rem 0 0;}
+.lveMesLine{padding:0.14rem 0.2rem;margin-bottom: 0.2rem;}
+.lveMesLine input{font-size: 0.24rem;}
+.sendMesLine{padding:0.1rem 0.46rem;-webkit-border-radius: .1rem;border-radius: .1rem;}
+.sendMesLine input{font-size: 0.26rem;}
+.hisMesAreaIn{padding:0.2rem 0;}
+.hisMesGroup{padding:0.4rem 0;}
+.hisMesHead{width:.72rem;height:.72rem;}
+.hisMesIn{font-size: .22rem;}
+.leaveMesArea{margin-bottom: 0.7rem;}
+.hisMesHead{margin-right: .16rem;}
+
+}
+
+
+
+
+

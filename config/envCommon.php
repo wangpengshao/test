@@ -1,0 +1,12 @@
+<?php
+
+return [
+    'MENU_ENCRYPT_STR' => env('MENU_ENCRYPT_STR'),
+    'ENCRYPT_STR' => env('ENCRYPT_STR'),
+    'FFMPEG_PATH' => env('FFMPEG_PATH'),
+    'TENCENT_MAP_KEY' => env('TENCENT_MAP_KEY'),
+    'APP_URL' => env('APP_URL'),
+    'ACCESSTOKEN_SECOND' => env('ACCESSTOKEN_SECOND'),
+    'RE_ACCESSTOKEN_SECOND' => env('RE_ACCESSTOKEN_SECOND'),
+    'PERSONAL_AC_CLIENT_ID' => env('PERSONAL_AC_CLIENT_ID')
+];

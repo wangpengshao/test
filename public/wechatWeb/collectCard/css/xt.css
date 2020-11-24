@@ -1,0 +1,2331 @@
+.ovFlow {
+    overflow: hidden;
+}
+
+.flLeft {
+    float: left;
+}
+
+.flRight {
+    float: right;
+}
+
+.bgWhite {
+    background: #fff;
+}
+
+.addPf {
+    position: fixed !important;
+    left: 0;
+}
+
+.bgLinear {
+    background: -webkit-linear-gradient(60deg, #fa9f60, #fdcf91 50%, #fac286);
+    background: linear-gradient(60deg, #fa9f60, #fdcf91 50%, #fac286);
+}
+
+.cardColHd {
+    width: 100%;
+    height: 7.74rem;
+    background: -webkit-linear-gradient(60deg, #fa9f60, #fdcf91 50%, #fac286);
+    background: linear-gradient(60deg, #fa9f60, #fdcf91 50%, #fac286);
+    position: relative;
+}
+
+.bgPicSm, .actRuleBtn {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bgPaper {
+    z-index: 2;
+}
+
+.bgPicSmLf {
+    width: 1.11rem;
+    height: .43rem;
+    top: .46rem;
+    left: 0;
+    background-image: url(../img/bgPicSm01.png);
+}
+
+.bgPicSmRt {
+    width: .68rem;
+    height: .43rem;
+    top: 1.8rem;
+    right: 0;
+    background-image: url(../img/bgPicSm02.png);
+}
+
+.bgPicBot {
+    width: 100%;
+}
+
+.bgPicBot01 {
+    width: 2.28rem;
+    height: 4.41rem;
+    background-image: url(../img/bgPicBot_01.png);
+    left: 0;
+    bottom: 0;
+}
+
+.bgPicBot02 {
+    width: .62rem;
+    height: 1.18rem;
+    background-image: url(../img/bgPicBot_02.png);
+    left: 2.58rem;
+    bottom: .3rem;
+}
+
+
+.bgPicBot03 {
+    width: 2rem;
+    height: 3.7rem;
+    background-image: url(../img/bgPicBot_03.png);
+    right: 0;
+    bottom: 0;
+}
+
+.bgPicBot04 {
+    width: 100%;
+    height: 1.98rem;
+    background-image: url(../img/bgPicBot_04.png);
+    left: 0;
+    bottom: -2px;
+}
+
+.redPacket {
+    text-align: center;
+    width: 5.63rem;
+    height: 5.36rem;
+    background-image: url(../img/redPacket01.png);
+    left: 50%;
+    top: 25%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.fgPicBig {
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.fgPicB01 {
+    width: 1.88rem;
+    height: 3.99rem;
+    background-image: url(../img/headerFg_01.png);
+    left: 0;
+    top: 0;
+}
+
+.fgPicB02 {
+    width: 2.42rem;
+    height: .15rem;
+    background-image: url(../img/headerFg_02.png);
+    right: 0;
+    top: 0;
+}
+
+.fgPicB03 {
+    width: .32rem;
+    height: .24rem;
+    background-image: url(../img/headerFg_03.png);
+    left: 5rem;
+    top: 2.14rem;
+}
+
+.fgPicB04 {
+    width: 1.16rem;
+    height: 4.64rem;
+    background-image: url(../img/headerFg_04.png);
+    right: 0;
+    top: 2.5rem;
+}
+
+.actRuleBtn {
+    width: 1.14rem;
+    height: 1.9rem;
+    background-image: url(../img/actRuleBg.png);
+    right: 0;
+    top: .66rem;
+}
+
+.actRuleBtnIn {
+    color: #fff;
+    font-size: .26rem;
+    text-align: center;
+    line-height: 1.1;
+    display: inline-block;
+    width: .56rem;
+    padding: .1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.actTitAreaIn {
+    width: 3.29rem;
+    height: 1rem;
+    background: url(../img/actTit.png) no-repeat;
+    background-size: 100% 100%;
+    margin: .4rem auto 0;
+
+}
+
+.actTime {
+    font-size: .3rem;
+    color: #f67e01;
+    text-align: center;
+}
+
+.openPacBtn {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    margin: .85rem auto 0;
+}
+
+.lotteryFont {
+    font-size: .3rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(to right, #fec292, #ffd4b2);
+    background: linear-gradient(to right, #fec292, #ffd4b2);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding-top: .12rem;
+}
+
+.lotTmArea {
+    font-size: .36rem;
+    color: #ed7311;
+    width: 3.8rem;
+    height: .81rem;
+    line-height: .81rem;
+    background: url(../img/lotteryTmBg.png) no-repeat;
+    background-size: 100% 100%;
+    margin: .2rem auto 0;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 .1rem;
+}
+
+.colCardArea {
+    background: #f45250;
+    padding: 0.1rem .3rem 1.4rem;
+    position: relative;
+}
+
+.colCardAreaIn {
+    width: 6.9rem;
+    height: 2.5rem;
+    padding: 0 .4rem;
+    background: url(../img/cardAreaBg.png) no-repeat;
+    background-size: 6.9rem 2.5rem;
+    overflow: hidden;
+}
+
+.colCardUl2 {
+    height: 2.5rem;
+    /*padding: 0 .4rem;*/
+    width: 100rem;
+}
+
+.colCardUl {
+    height: 2.5rem;
+    padding: 0 .4rem;
+    /*width: 100rem;*/
+}
+
+.colCardLi {
+    width: 1.21rem;
+    height: 1.65rem;
+    -webkit-border-radius: .05rem;
+    border-radius: .05rem;
+    float: left;
+    margin: .44rem .157rem;
+    position: relative;
+}
+
+.colCardLi img, .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+}
+
+.colCardLi.hasCard img, .swiper-slide.hasCard img {
+    opacity: 1;
+}
+
+.colCardStrat {
+    width: 100%;
+    height: 1rem;
+    border-radius: .5rem .5rem 0 0;
+    background: rgba(255, 255, 255, .2);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.colCardStratIn {
+    width: 100%;
+    min-height: 1rem;
+    background: #fff;
+    border-radius: .5rem .5rem 0 0;
+    position: absolute;
+    left: 0;
+    top: .23rem;
+    padding: .2rem .3rem;
+}
+
+.colCardTit {
+    font-size: .44rem;
+    color: #f4564f;
+    text-align: center;
+    margin-bottom: .4rem;
+}
+
+.colCardTit::before, .colCardTit::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.colCardTit::before {
+    width: .44rem;
+    height: .46rem;
+    background-image: url(../img/titIcon_01.png);
+    margin: -.09rem .1rem 0 0;
+
+}
+
+.colCardTit::after {
+    width: .31rem;
+    height: .33rem;
+    background-image: url(../img/titIcon_02.png);
+    margin-left: .1rem;
+}
+
+.colCdStLi {
+    width: 100%;
+    height: 1.8rem;
+    margin-bottom: .54rem;
+    -webkit-border-radius: .14rem;
+    border-radius: .14rem;
+    overflow: hidden;
+    padding-left: .26rem;
+    justify-content: space-between;
+}
+
+.colCdStLi01 {
+    background: -webkit-linear-gradient(to right, #fa554f, #ff8957);
+    background: linear-gradient(to right, #fa554f, #ff8957);
+    -webkit-box-shadow: 0 0 0.1rem 0 #ff8957;
+    box-shadow: 0 0 0.1rem 0 #ff8957;
+}
+
+.colCdStLi02 {
+    background: -webkit-linear-gradient(to right, #ff9746, #ffae44);
+    background: linear-gradient(to right, #ff9746, #ffae44);
+    -webkit-box-shadow: 0 0 0.1rem 0 #ffae44;
+    box-shadow: 0 0 0.1rem 0 #ffae44;
+}
+
+.colCdStLi03 {
+    background: -webkit-linear-gradient(to right, #a279ff, #bc90ff);
+    background: linear-gradient(to right, #a279ff, #bc90ff);
+    -webkit-box-shadow: 0 0 0.1rem 0 #bc90ff;
+    box-shadow: 0 0 0.1rem 0 #bc90ff;
+}
+
+.stratIcon {
+    width: 1.22rem;
+    height: 1.14rem;
+    background: #fff;
+    -webkit-border-radius: .3rem;
+    border-radius: .3rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.stratIcon01 {
+    background-image: url(../img/stratIcon_01.png);
+    background-size: .78rem .71rem;
+}
+
+.stratIcon02 {
+    background-image: url(../img/stratIcon_02.png);
+    background-size: .74rem .78rem;
+}
+
+.stratIcon03 {
+    background-image: url(../img/stratIcon_03.png);
+    background-size: .76rem .72rem;
+}
+
+.stratCon {
+    color: #fff;
+    width: 4rem;
+    margin: 0 .2rem 0 .26rem;
+}
+
+.stratTit {
+    font-size: .26rem;
+    font-weight: 700;
+}
+
+.stratConIn {
+    font-size: .22rem;
+}
+
+.stratBtnArea {
+    width: 1.62rem;
+    height: 1.8rem;
+    border-radius: 2rem 0 0 2rem;
+    justify-content: center;
+}
+
+.stratBtnArea01 {
+    background: #f97b46;
+    box-shadow: -0.05rem 0 .2rem #fa554f;
+}
+
+.stratBtnArea02 {
+    background: #ffa02e;
+    box-shadow: -0.05rem 0 .2rem #ea812e;
+}
+
+.stratBtnArea03 {
+    background: #ae7fff;
+    box-shadow: -0.05rem 0 .2rem #966afb;
+}
+
+.stratBtnIn, .shareMethBtn {
+    font-size: .26rem;
+    color: #a76802;
+    text-align: center;
+    width: 1.2rem;
+    height: .56rem;
+    line-height: .58rem;
+    background: #fed74a;
+    -webkit-border-radius: .4rem;
+    border-radius: .4rem;
+}
+
+.stratBtnIn::after {
+    content: '';
+    width: .1rem;
+    height: .16rem;
+    background: url(../img/stratRtIcon.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -.05rem 0 0 0.05rem;
+}
+
+.noMoney .cardTit {
+    margin-top: .5rem;
+}
+
+.noMoney .failFont {
+    font-size: .3rem;
+}
+
+.noMoney .failFont:first-of-type {
+    font-size: .42rem;
+}
+
+/*活动规则 start*/
+
+.bgRed {
+    background: #f45250;
+}
+
+.actDesArea {
+    width: 82%;
+    margin: 0 auto;
+    padding: .46rem .38rem .2rem;
+    background: -webkit-linear-gradient(#ffeddf, #ffcfab);
+    background: linear-gradient(#ffeddf, #ffcfab);
+    -webkit-border-radius: .2rem;
+    border-radius: .2rem;
+    position: absolute;
+    top: 2.36rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.actDesCon {
+    font-size: .3rem;
+    color: #f67e01;
+}
+
+.actDesTit {
+    font-weight: 700;
+}
+
+.actDesEq {
+    width: 3.34rem;
+    margin: .5rem auto .2rem;
+}
+
+.actDesEqHint {
+    font-size: .26rem;
+    color: #555;
+    text-align: center;
+    font-weight: 500;
+}
+
+/*活动规则 end*/
+
+/* 我的卡片 start */
+.swiper-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery-top {
+    height: 80%;
+    width: 100%;
+}
+
+/*.gallery-thumbs {*/
+/*height: 20%;*/
+/*box-sizing: border-box;*/
+/*padding: 10px .4rem;*/
+/*}*/
+.gallery-thumbs .swiper-slide {
+    height: 100%;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active .cardImgArea {
+    width: 1.4rem;
+    margin-top: -.15rem;
+}
+
+.gallery-top .cardImgArea {
+    margin: 1.5rem 1rem 1rem;
+    position: relative;
+}
+
+.gallery-top .swiper-slide {
+    display: flex;
+    align-items: center;
+}
+
+
+.cardImgArea img {
+    width: 100%;
+    text-align: center;
+}
+
+.sendCardArea {
+    color: #e41d46;
+    width: 1.5rem;
+    height: .82rem;
+    position: absolute;
+    right: .11rem;
+    top: -.82rem;
+    display: none;
+}
+
+.verLine {
+    width: 1px;
+    width: .01rem;
+    height: .38rem;
+    background: #e41d46;
+    position: absolute;
+    bottom: -0.12rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.sendCardIn {
+    font-size: .26rem;
+    color: #e41d46;
+    text-align: center;
+    width: 100%;
+    height: .56rem;
+    line-height: .56rem;
+    border: 1px solid #e41d46;
+    display: block;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    background: #fff;
+}
+
+.sendCardIn::after {
+    content: '';
+    width: .21rem;
+    height: .21rem;
+    background: url(../img/toShare.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -.03rem 0 0 .1rem;
+}
+
+.gallery-top .swiper-slide.hasCard .sendCardArea {
+    display: block;
+}
+
+/* 我的卡片 end */
+
+/* 攻略 start */
+.stratHdTit {
+    width: 3.34rem;
+    height: 1.05rem;
+    background: url(../img/stratTit.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0.42rem auto;
+}
+
+.stratConArea {
+    margin: 0 .3rem .5rem;
+}
+
+.stratConArea:last-of-type {
+    margin-bottom: 1.18rem;
+}
+
+.stratModIn {
+    width: 100%;
+    padding: .5rem .36rem;
+    background: #fff;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.stratTopLt, .stratTopRt, .stratOneImg, .stratTwoImg {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.stratTopLt {
+    width: .44rem;
+    height: .46rem;
+    position: absolute;
+    top: -.46rem;
+    left: 1.58rem;
+    background-image: url(../img/titIcon_01.png);
+}
+
+.stratTopRt {
+    width: .31rem;
+    height: .33rem;
+    position: absolute;
+    right: 1.7rem;
+    top: -.33rem;
+    background-image: url(../img/titIcon_02.png);
+}
+
+.stratOneImg, .stratTwoImg {
+    width: 2.47rem;
+    height: 2.47rem;
+}
+
+.stratOneImg {
+    background-image: url(../img/expCard01.png);
+}
+
+.stratOneCon {
+    width: 54%;
+}
+
+.stratModTitFont {
+    color: #363636;
+    font-size: .4rem;
+    font-weight: 600;
+}
+
+.stratNum {
+    font-size: .26rem;
+    color: #fff;
+    text-align: center;
+    width: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    -webkit-border-radius: .04rem;
+    border-radius: .04rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -.05rem .1rem 0 0;
+    background: #fca782;
+    position: relative;
+}
+
+.stratNum::before {
+    content: '';
+    width: .26rem;
+    height: .26rem;
+    border: .02rem dashed #f96d42;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-border-radius: .03rem;
+    border-radius: .03rem;
+}
+
+.stratModDet {
+    font-size: .3rem;
+    color: #666666;
+    font-weight: 600;
+    margin-top: .2rem;
+}
+
+.expArea {
+    margin-top: .34rem;
+}
+
+.expTit {
+    font-size: .3rem;
+    color: #666;
+}
+
+.expStepLi {
+    float: left;
+    height: .56rem;
+    font-size: .26rem;
+    color: #a76802;
+    margin-left: .26rem;
+    margin-bottom: .3rem;
+}
+
+.expStepLink, .shareMethBtn {
+    width: auto;
+    padding: 0 .26rem;
+    display: block;
+}
+
+.stratTwoImg {
+    background-image: url(../img/expCard02.png);
+}
+
+.stratModSec {
+    margin-top: .36rem;
+}
+
+.stratTwoCon {
+    width: 60%;
+}
+
+.myExpTit {
+    font-size: .4rem;
+    color: #353535;
+    text-align: center;
+    margin-bottom: .4rem;
+}
+
+.myExpTit::before, .myExpTit::after {
+    content: '';
+    width: .83rem;
+    height: .34rem;
+    background: url(../img/myExpTitIcon.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.myExpFnTit {
+    font-size: .3rem;
+    color: #353535;
+    margin-bottom: .35rem;
+}
+
+.expFnLi {
+    font-size: .26rem;
+    color: #666666;
+    margin-bottom: .26rem;
+}
+
+.expFnLi::before {
+    content: '';
+    width: .37rem;
+    height: .37rem;
+    background: url(../img/expIcon01.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -.06rem .16rem 0 0;
+}
+
+.hasExpFn::before {
+    background-image: url(../img/expIcon02.png);
+}
+
+.myGetCard .colCardUl {
+    padding: 0;
+    height: auto;
+}
+
+.myGetCard .colCardUl2 {
+    padding: 0;
+    height: auto;
+}
+
+.myGetCard .colCardLi {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.myGetCard {
+    margin-top: .5rem;
+}
+
+/* 分享集卡 start */
+.shareCardTit {
+    background-image: url(../img/shareTit.png);
+}
+
+.shareMethArea {
+    justify-content: space-around;
+    margin-top: .4rem;
+}
+
+.shareMethCon a {
+    display: block;
+}
+
+.shareMethImg {
+    width: 1.58rem;
+    height: 1.58rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto .2rem;
+}
+
+.shareMethImg01 {
+    background-image: url(../img/shareMeth01.png);
+}
+
+.shareMethImg02 {
+    background-image: url(../img/shareMeth02.png);
+}
+
+.friendUl {
+    padding-bottom: .12rem;
+}
+
+.friendLi {
+    width: .64rem;
+    height: .64rem;
+    -webkit-border-radius: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: 0 .4rem .3rem 0;
+}
+
+.friendLi:nth-of-type(6n) {
+    margin-right: 0;
+}
+
+.shareMyGetCard .colCardUl {
+    height: auto;
+    padding: 0;
+}
+
+.shareMyGetCard .colCardUl2 {
+    height: auto;
+    padding: 0;
+}
+
+.shareMyGetCard .colCardLi {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.frontImg img, .backImg img {
+    width: 1.3rem;
+    height: 1.66rem;
+}
+
+
+.frontImg {
+    position: absolute;
+    top: 0;
+}
+
+.backImgIn {
+    width: 1.18rem;
+    height: 1.62rem;
+    background: #e44e65;
+    font-size: .26rem;
+    color: #ffd1a3;
+    text-align: center;
+    padding: 0.34rem 0;
+    -webkit-border-radius: .06rem;
+    border-radius: .06rem;
+    backface-visibility: hidden;
+    margin-top: .02rem;
+}
+
+.quesCard {
+    width: .57rem;
+    height: .57rem;
+    background: url(../img/queCard.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+}
+
+.firJoinTit {
+    background-image: url(../img/firJiActTit.png);
+}
+
+.firJoinArea {
+    padding: 0.5rem .74rem;
+}
+
+.firGetCd {
+    text-align: center;
+    margin-top: .8rem;
+}
+
+.firGetCdImg {
+    width: 1.21rem;
+    height: 1.65rem;
+    margin: 0 auto .48rem;
+}
+
+.firCardName {
+    font-size: .36rem;
+    color: #85304b;
+    font-weight: 600;
+}
+
+.firCardName::before, .firCardName::after {
+    content: '';
+    width: .5rem;
+    height: .01rem;
+    background: #cccccc;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.firCardName::before {
+    margin-right: .28rem;
+}
+
+.firCardName::after {
+    margin-left: .28rem;
+}
+
+.cardBtnArea {
+    width: 4.4rem;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.cardBtnArea a {
+    display: inline-block;
+    height: .68rem;
+    line-height: .68rem;
+    padding: 0 .4rem;
+}
+
+.toExcBtn {
+    width: 1.76rem;
+    margin: 0.68rem auto .48rem;
+}
+
+
+.retIndexBtn {
+    font-size: .26rem;
+    color: #a76802;
+    margin-bottom: .28rem;
+    display: inline-block;
+}
+
+/* 分享集卡 end */
+
+/*附近借还机 start*/
+.machineUl {
+    padding-top: .58rem;
+    position: relative;
+    z-index: 1;
+    margin: 0 .3rem;
+}
+
+.machineLi {
+    padding: .5rem .16rem .5rem .3rem;
+    margin-bottom: .4rem;
+    background: #fff;
+    -webkit-border-radius: .2rem;
+    border-radius: .2rem;
+    justify-content: space-between;
+}
+
+.machineIcon {
+    width: .9rem;
+    height: .9rem;
+    background: url(../img/borRobotIcon.png) no-repeat;
+    background-size: 100% 100%;
+    margin-right: .26rem;
+}
+
+.machineRoom {
+    color: #363636;
+    font-size: .36rem;
+}
+
+.machineAddr {
+    font-size: .3rem;
+    color: #888888;
+}
+
+.maAddrIcon {
+    width: .23rem;
+    height: .28rem;
+    background: url(../img/borAddr.png) no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: -0.06rem 0.01rem 0 0;
+}
+
+.machineCon {
+    width: 4.36rem;
+}
+
+.machineDist {
+    font-size: .22rem;
+    color: #aaa;
+    text-align: center;
+    border-left: 0.01rem dashed #ccc;
+    padding-left: .15rem;
+}
+
+.maAddrFont {
+    width: 88%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*附近借还机 end*/
+/* 攻略 end */
+
+/*弹出框 start*/
+.popArea {
+    display: none;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.singleCard {
+    width: 6.5rem;
+    height: 8.06rem;
+    background-image: url(../img/singleCardBg.png);
+    background-size: 6.5rem 8.06rem;
+    background-position: .24rem .67rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    -webkit-animation: zoomIn 1s;
+    animation: zoomIn 1s;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.popCon {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    padding: 0 .58rem;
+}
+
+.cardOut {
+    height: 9.2rem;
+}
+
+.friSendTit {
+    color: #fff;
+    font-size: .3rem;
+    text-align: center;
+    padding: 1.15rem 0 0 0;
+    margin-bottom: .36rem;
+}
+
+.friCardType {
+    font-size: .36rem;
+    margin-top: .12rem;
+}
+
+.friName {
+    padding: 0 .1rem;
+}
+
+.firSendImg {
+    width: 4.4rem;
+    position: absolute;
+    top: 2.6rem;
+    left: 50%;
+    margin-left: -2.2rem;
+    -webkit-animation: zoomIn .5s;
+    animation: zoomIn .5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+    opacity: 0;
+
+}
+
+.closeBtn {
+    width: 0.8rem;
+    height: .8rem;
+    background: url(../img/close.png) no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    margin: .75rem auto 0;
+}
+
+.excPopCon {
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.popConIn {
+    width: 100%;
+    background: #fff;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    padding: .5rem .6rem .6rem;
+}
+
+.choseExcTit {
+    font-size: .4rem;
+    font-weight: 500;
+    color: #363636;
+    text-align: center;
+}
+
+.hasMvTit {
+    -webkit-animation: zoomIn .2s;
+    animation: zoomIn .2s;
+    -webkit-animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.w178 {
+    width: 1.78rem;
+}
+
+.choseExcCard .colCardUl {
+    height: auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.choseExcCard .colCardUl2 {
+    height: auto;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.choseExcCard .colCardLi {
+    margin: .7rem 0;
+    height: auto;
+}
+
+.notChose {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+.curChose img {
+    opacity: 1;
+}
+
+.choseExcCard .curChose {
+    width: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+.excSucIn {
+    padding: .5rem 0;
+}
+
+.excResArea {
+    height: 2.36rem;
+    position: relative;
+    margin-bottom: .7rem;
+    overflow: hidden;
+}
+
+.excPaPerBg {
+    width: 4.58rem;
+    height: 2.02rem;
+    background: url(../img/excBg01.png) no-repeat;
+    background-size: 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-56%);
+    transform: translateX(-56%);
+    -webkit-animation: leftRtMove 10s infinite;
+    animation: leftRtMove 10s infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes leftRtMove {
+
+    from {
+        -webkit-transform: translateX(-56%);
+        transform: translateX(-56%);
+    }
+    50% {
+        -webkit-transform: translateX(-47%);
+        transform: translateX(-47%);
+    }
+    to {
+        -webkit-transform: translateX(-56%);
+        transform: translateX(-56%);
+    }
+}
+
+.excResBg {
+    width: 100%;
+    height: 1.38rem;
+    background: url(../img/excBg02.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 3;
+}
+
+.excResCon {
+    -webkit-animation: zoomIn 1s;
+    animation: zoomIn 1s;
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    transform-origin: center center; /*设置动画旋转元素的基点为：居中靠下*/
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+    opacity: 0;
+}
+
+@-webkit-keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(0.3, 0.3, 0.3);
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.excResCard {
+    width: 1.4rem;
+    margin: .36rem auto 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -.7rem;
+    z-index: 2;
+
+}
+
+/*首页弹出框*/
+.openPacArea .friSendTit {
+    margin-bottom: .62rem;
+    -webkit-animation: opPkNum .5s;
+    animation: opPkNum .5s;
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+    visibility: hidden;
+}
+
+.openPacAreaIn {
+    width: 4.5rem;
+    height: 4.82rem;
+    position: relative;
+    margin: 0 auto 1.02rem;
+}
+
+.openPacAreaIn:before {
+    content: '';
+    width: 4.5rem;
+    height: 4.82rem;
+    background: url(../img/pakPopBg01.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.openPacAreaIn:after {
+    content: '';
+    width: 5.06rem;
+    height: 3.99rem;
+    background: url(../img/pakPopBg02.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -.12rem;
+    bottom: -.2rem;
+    z-index: 1;
+}
+
+.opPackCon {
+    width: 4.2rem;
+    height: 3.8rem;
+    background: url(../img/packOpenBg02-2.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: -.65rem;
+    margin-left: -2.1rem;
+    z-index: 1;
+    text-align: center;
+    -webkit-animation: redPack 1s;
+    animation: redPack 1s;
+    transform-origin: center bottom; /*设置动画旋转元素的基点为：居中靠下*/
+}
+
+@-webkit-keyframes redPack {
+    0% {
+        height: 0;
+        top: 2rem;
+    }
+    20% {
+        height: 3.5rem;
+        top: -.65rem;
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transform: translate3d(0, 0, 0);
+    }
+    from, 20%, 53%, 80%, to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transform: translate3d(0, 0, 0);
+    }
+
+    40%, 43% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -30px, 0);
+    }
+
+    70% {
+        animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+        transform: translate3d(0, -15px, 0);
+    }
+
+    90% {
+        transform: translate3d(0, -4px, 0);
+    }
+}
+
+.friCardType:before, .friCardType:after {
+    content: '';
+    width: .5rem;
+    height: 1px;
+    background: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.friCardType:before {
+    margin-right: .1rem;
+}
+
+.friCardType:after {
+    margin-left: .1rem;
+}
+
+.openPacArea .cardTit, .moeyIcArea {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.openPacArea .cardTit {
+    background: none;
+    font-size: .18rem;
+    top: 60%;
+    -webkit-animation: cardTit 1s;
+    animation: cardTit 1s;
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    -webkit-animation-delay: 2.6s;
+    animation-delay: 2.6s;
+    opacity: 0;
+}
+
+@keyframes cardTit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes cardTit {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.opPkNum {
+    text-align: center;
+    margin-top: .7rem;
+    -webkit-animation: opPkNum .5s;
+    animation: opPkNum .5s;
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    visibility: hidden;
+}
+
+@keyframes opPkNum {
+    from {
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+
+    }
+}
+
+@-webkit-keyframes opPkNum {
+    from {
+        -webkit-transform: translate3d(0, -20%, 0);
+        transform: translate3d(0, -20%, 0);
+        visibility: visible;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+
+    }
+}
+
+
+.openPacArea .moneyCon {
+    height: 1rem;
+    line-height: 1rem;
+    top: 33%;
+}
+
+.openPacArea .moneyNum {
+    font-size: .8rem;
+}
+
+.openPacArea .congTit {
+    font-size: .24rem;
+    top: 20%;
+}
+
+.moeyIcArea {
+    position: absolute;
+    left: 42%;
+    top: 4.5rem;
+    z-index: 2;
+}
+
+.moeyIcon {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+}
+
+.moeyIc01 {
+    width: .47rem;
+    height: .46rem;
+    background-image: url(../img/mIcon01.png);
+    animation: moeyIc01 .2s;
+    -webkit-animation: moeyIc01 .2s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+@keyframes moeyIc01 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -1rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 4rem;
+        left: -3rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc01 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -1rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 4rem;
+        left: -3rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc02 {
+    width: .59rem;
+    height: .59rem;
+    background-image: url(../img/mIcon02.png);
+    animation: moeyIc02 .2s;
+    -webkit-animation: moeyIc02 .2s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.2s;
+}
+
+
+@keyframes moeyIc02 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -1rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: -2rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc02 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -1rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: -2rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc03 {
+    width: .68rem;
+    height: .70rem;
+    background-image: url(../img/mIcon03.png);
+    animation: moeyIc03 .3s;
+    -webkit-animation: moeyIc03 .3s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.3s;
+    -webkit-animation-delay: 1.3s;
+}
+
+
+@keyframes moeyIc03 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.5rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: -1rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc03 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.5rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: -1rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc04 {
+    width: .70rem;
+    height: .72rem;
+    background-image: url(../img/mIcon04.png);
+    animation: moeyIc04 .4s;
+    -webkit-animation: moeyIc04 .4s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.4s;
+    -webkit-animation-delay: 1.4s;
+}
+
+@keyframes moeyIc04 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc04 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc05 {
+    width: .72rem;
+    height: .71rem;
+    background-image: url(../img/mIcon05.png);
+    animation: moeyIc05 .5s;
+    -webkit-animation: moeyIc05 .5s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-interation-count: 2;
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+}
+
+
+@keyframes moeyIc05 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 1rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc05 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 1rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc06 {
+    width: .84rem;
+    height: .83rem;
+    background-image: url(../img/mIcon06.png);
+    animation: moeyIc06 .6s;
+    -webkit-animation: moeyIc06 .6s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s;
+}
+
+@keyframes moeyIc06 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 1.5rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc06 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+        opacity: 1;
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 1.5rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc07, .moeyIc08 {
+    width: .90rem;
+    height: .89rem;
+    background-image: url(../img/mIcon07.png);
+}
+
+.moeyIc07 {
+    animation: moeyIc07 .7s;
+    -webkit-animation: moeyIc07 .7s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.7s;
+    -webkit-animation-delay: 1.7s;
+}
+
+@keyframes moeyIc07 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 2rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc07 {
+    0% {
+        opacity: 1;
+        left: 0;
+        top: 0;
+    }
+    20% {
+        top: -.3rem;
+    }
+    98% {
+        opacity: .9;
+    }
+
+    to {
+        top: 3.5rem;
+        left: 2rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc08 {
+    background-image: url(../img/mIcon08.png);
+    animation: moeyIc08 .8s;
+    -webkit-animation: moeyIc08 .8s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.8s;
+    -webkit-animation-delay: 1.8s;
+}
+
+@keyframes moeyIc08 {
+    0% {
+        opacity: 1;
+        left: 2rem;
+        top: 0;
+    }
+    20% {
+        top: -.5rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: 2.5rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc08 {
+    0% {
+        opacity: 1;
+        left: 2rem;
+        top: 0;
+    }
+    20% {
+        top: -.5rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: 2.5rem;
+        opacity: 0;
+    }
+}
+
+.moeyIc09 {
+    width: .95rem;
+    height: .95rem;
+    background-image: url(../img/mIcon09.png);
+    animation: moeyIc09 .9s;
+    -webkit-animation: moeyIc09 .9s; /* Safari 和 Chrome */
+    -webkit-animation-fill-mode: forwards; /*运行后停留在最后的地方*/
+    animation-delay: 1.9s;
+    -webkit-animation-delay: 1.9s;
+}
+
+@keyframes moeyIc09 {
+    0% {
+        opacity: 1;
+        left: 1rem;
+        top: 0;
+    }
+    20% {
+        top: -.4rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: 3rem;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes moeyIc09 {
+    0% {
+        opacity: 1;
+        left: 1rem;
+        top: 0;
+    }
+    20% {
+        top: -.4rem;
+    }
+    98% {
+        opacity: .9;
+    }
+    to {
+        top: 3.5rem;
+        left: 3rem;
+        opacity: 0;
+    }
+}
+
+/*没有中奖*/
+.failFont {
+    color: #ed7311;
+    font-size: .24rem;
+    font-weight: 500;
+}
+
+.failFont:first-of-type {
+    font-size: .32rem;
+    padding-top: .2rem;
+}
+
+
+/*弹出框 end*/
+
+/*活动结束 start*/
+.packOpen {
+    top: 88%;
+    background-image: url(../img/redPacket02.png);
+    background-size: 5.63rem 5.36rem;
+    overflow: inherit;
+    /*-webkit-transition: top .2s;
+            transition: top .2s;*/
+}
+
+.packOpen.hasOpen {
+    top: 32%;
+}
+
+.packOpenCon {
+    text-align: center;
+    width: 4.92rem;
+    height: 0;
+    overflow: hidden;
+    bottom: 1.91rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-image: url(../img/packOpenBg.png);
+    background-size: 100% 100%;
+    /* -webkit-transition: all .9s ;
+             transition: all .9s ;*/
+}
+
+.packOpenCon.hasOpen {
+    height: 4.08rem;
+    padding: 1rem 0;
+}
+
+.congTit {
+    font-size: .3rem;
+    color: #ed7311;
+}
+
+.moneyCon {
+    color: #e41d46;
+    font-size: .6rem;
+}
+
+.moneyNum {
+    font-size: 1rem;
+}
+
+.cardTit {
+    font-size: .22rem;
+    color: #e41d46;
+    width: 1.6rem;
+    height: .48rem;
+    line-height: .48rem;
+    background: url(../img/cardTitBg.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.rankListArea {
+    width: 100%;
+    background: #fff;
+    margin: .7rem 0 0 0;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+.rankTit {
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    width: 3.82rem;
+    height: .88rem;
+    line-height: .8rem;
+    background-image: url(../img/rankTitBg.png);
+    left: 50%;
+    top: -.34rem;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.rankUl {
+    padding: 0 .34rem 0 .5rem;
+}
+
+.rankUlIn {
+    margin: 1rem 0 .2rem;
+    max-height: 5.6rem;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* 用于 ios5+ */
+}
+
+.rankLi {
+    color: #666;
+    font-size: .26rem;
+    padding-bottom: .42rem;
+
+}
+
+.rankIcon {
+    font-weight: 700;
+    color: #a76802;
+    text-align: center;
+    width: .5rem;
+    height: .56rem;
+    line-height: .56rem;
+    background: url(../img/rank04.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.rankHead {
+    width: .64rem;
+    height: .64rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rankPer {
+    width: 59%;
+    margin: 0 .5rem;
+}
+
+.rankPerName {
+    width: 76%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: .1rem;
+}
+
+.rankFirIcon, .rankSecIcon, .rankThrIcon {
+    width: .55rem;
+    height: .74rem;
+    line-height: .88rem;
+}
+
+.rankFirIcon {
+    color: #b8001c;
+    background-image: url(../img/rank01.png);
+}
+
+.rankSecIcon {
+    color: #fd681f;
+    background-image: url(../img/rank02.png);
+}
+
+.rankThrIcon {
+    color: #fea200;
+    background-image: url(../img/rank03.png);
+}
+
+/*活动结束 end*/
+@-webkit-keyframes flipOutYturn {
+    from {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+    }
+
+    40% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 60deg);
+        opacity: 1;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 90deg);
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, 180deg);
+        opacity: 0;
+    }
+}
+
+.turn {
+    -webkit-animation: flipOutYturn 0.4s linear;
+    animation: flipOutYturn 0.4s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes flipInYturn {
+    from {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
+        opacity: 0;
+    }
+
+    50% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -90deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        transform: perspective(1400px) rotate3d(0, 1, 0, -60deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: perspective(1400px);
+        transform: perspective(1400px);
+        opacity: 1;
+    }
+}
+
+.turn2 {
+    -webkit-animation: flipInYturn 0.4s linear;
+    animation: flipInYturn 0.4s linear;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+/************添加***************/
+.cardItemImg {
+    position: relative;
+}
+
+.circular {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #e9274a;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    right: -0.1rem;
+    top: -0.1rem;
+    font-size: 0.24rem;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+cardImgArea .circular {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #e9274a;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    right: -0.1rem;
+    top: -0.1rem;
+    font-size: 0.12rem;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #fff;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active .cardImgArea {
+    width: 1.4rem;
+    margin-top: -.15rem;
+    position: relative;
+}
+
+.gallery-thumbs {
+    height: 20%;
+    box-sizing: border-box;
+    /* padding: 10px .4rem; */
+    padding: 0.5rem .4rem 0.1rem !important;
+}
+
+.prize-title {
+    color: #e41d46;
+    margin-top: .2rem
+}
+
+.w158 {
+    width: 1.58rem;
+}
+
+.exchangeBtn {
+    display: block;
+    position: absolute;
+    bottom: .3rem;
+    right: .4rem
+}
+
+.goHomeBtn {
+    width: 1.14rem;
+    height: 1.9rem;
+    background-image: url(../img/actRuleBg.png);
+    right: 0;
+    bottom: 3rem;
+    z-index: 9999;
+}
+
+.bgPicSm {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.goHomeBtn {
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.topPageClass {
+    color: #fa774f;
+}
+
+.unText {
+    padding-top: .3rem;
+}
+
+.unImg {
+    width: 1.18rem;
+    height: 1.62rem;
+    background: #e44e65;
+    font-size: .26rem;
+    color: #ffd1a3;
+    text-align: center;
+    padding: 0.34rem 0;
+    -webkit-border-radius: .06rem;
+    border-radius: .06rem;
+    backface-visibility: hidden;
+    margin-top: .02rem;
+}
+
+.shareTip {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 9999;
+}
+
+.shareTipImg {
+    background-image: url(../img/guide.png);
+    background-size: 100% 100%;
+    position: fixed;
+    right: 18px;
+    top: 5px;
+    width: 5.1rem;
+    height: 3.3rem;
+    z-index: 99;
+}
+
+.shareBtn {
+    background-image: url(../img/sharebtn.png);
+    background-size: 100% 100%;
+    position: fixed;
+    width: 2.2rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 2.5rem;
+    z-index: 999;
+    color: white;
+    text-align: center;
+    line-height: 1.3rem;
+    overflow: hidden;
+    font-size: .4rem;
+}

@@ -1,0 +1,168 @@
+
+
+.detBanner{
+  height:800px;
+  margin-bottom: 300px;
+  background-image: url(../images/detBanner.png);
+}
+
+.actDetTopArea{
+  text-align: center;
+  padding-top:64px;
+  color:#333;
+}
+
+.constTit{
+  display:inline-block;
+  padding:0 90px 22px;
+  border-bottom: 1px solid #666;
+  margin-bottom: 30px;
+}
+
+.constTitEn{
+  font-size: 38px;
+}
+
+.constTitEng{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+.singUpBtn,.singUpBtnIn{
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+.singUpBtn{
+  font-size: 24px;
+  letter-spacing: 10px;
+  width: 218px;
+  height: 50px;
+  background:#fff;
+  margin:0 auto;
+  
+}
+
+.singUpBtnIn{
+  display:inline-block;
+  width:212px;
+  height: 44px;
+  line-height: 44px;
+  border: 1px dashed #888888;
+  margin-top: 2px;
+}
+
+.downDire{
+  width: 30px;
+  height: 32px;
+  background:url(../images/downSan.png) no-repeat;
+  background-size: 100% 100%;
+  margin:20px auto;
+}
+
+.actDetArea{
+  top: 408px;
+  padding:50px;
+  background:#fff url(../images/actDetAreaBg.png) no-repeat right bottom;
+}
+
+.actDetGroup{
+  color:#333;
+}
+.actDetGroup .actDetGTit{
+  text-align: center;
+}
+
+.actDetGroup::after {
+  content: '';
+  width:1px;
+  height: 60px;
+  border-left: 1px dashed #aaaaaa;
+  display:block;
+  margin:6px auto 20px;
+}
+
+
+.actDetGroup.noBorder::after{
+  content:'';
+  width: 0;
+  height:0;
+  border-left: 0;
+}
+
+.actDetGTit{
+      font-size: 24px;
+      font-weight: 700;
+      padding-bottom: 22px;
+ }
+
+ .actDetGTit::before,.actDetGTit::after{
+   content: '';
+   width: 40px;
+   height: 4px;
+   background:#333;
+   display:inline-block;
+   vertical-align: middle;
+ }
+
+  .actDetGTit::before{margin-right: 8px;}
+  .actDetGTit::after{margin-left: 8px;}
+
+
+.actDetGCon{
+  font-size: 18px;
+}
+
+.actDetGCon li{
+  padding-bottom: 14px;
+}
+
+.actDetGCon li::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  background:#333333;
+  display:inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.actDetIcon{
+  width: 116px;
+  height:116px;
+  background:url(../images/detIcon.png) no-repeat;
+  background-size: 100% 100%;
+  position:absolute;
+  left:62px;
+  top: -58px;
+}
+
+
+.colorRed{color:#e83e33;}
+
+
+@media (max-width:750px) {
+  .actNumberArea,.actDetArea{padding:.28rem;}
+
+/*大赛详情*/
+/*.detBanner{height:8rem;margin-bottom:46.4rem;}*/
+.actDetTopArea{padding-top: .64rem;}
+.constTit{ padding: 0 .9rem .22rem;margin-bottom: .3rem;}
+.constTitEn{font-size: .44rem;}
+.constTitEng{font-size: .24rem;}
+.singUpBtn{font-size: .3rem; width: 2.18rem;height:0.52rem; letter-spacing: .1rem;}
+.singUpBtnIn{ width:2.12rem;height:0.44rem; line-height:0.44rem;margin-top: .02rem;}
+.singUpBtn,.singUpBtnIn{-webkit-border-radius:.08rem;border-radius:0.08rem;}
+.downDire{width: 0.3rem; height:.32rem;margin:.2rem auto;}
+.actDetIcon{width:1.16rem;height:1.16rem;left:.62rem;top:-.58rem;}
+.actDetGTit{font-size: .3rem;padding-bottom: .22rem;}
+.actDetGTit::before, .actDetGTit::after{width:0.4rem;height:0.04rem;}
+.actDetGCon{font-size: .26rem;}
+.actDetGroup::after{height:0.6rem; margin: 0.06rem auto 0.2rem;}
+.actDetArea{background-image: none;top: 4.4rem;}
+.actDetGCon li::before{width:.04rem;height:.04rem;margin-right: .1rem;}
+
+}

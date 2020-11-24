@@ -1,0 +1,720 @@
+@charset "utf-8";
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+input,
+select,
+button,
+textarea,
+table,
+th,
+td,
+a,
+span,
+canvas {
+    margin: 0;
+    padding: 0;
+    background: no-repeat center / contain;
+    cursor: default;
+}
+
+body {
+    display: block;
+    position: relative;
+    margin: auto;
+    max-width: 10rem;
+    min-width: 4.26666667rem;
+    font-size: 0.16rem;
+    font-family: "Microsoft Yahei", "Arial", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.r {
+    position: relative;
+}
+
+.a {
+    position: absolute;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+
+/*H5游戏共用类*/
+
+#wrap {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 16.01333333rem;
+}
+
+
+/*奖品展示*/
+
+.awards {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+}
+
+.awards .swiper-slide {
+    margin: 0.06666667rem 0.26666667rem;
+    padding: 0.2rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-image: url("../image/icon/drag/drag_box.png");
+}
+
+.awards .swiper-slide img {
+    width: inherit;
+    height: inherit;
+}
+
+
+/* 隐藏 */
+
+.hidden {
+    display: none !important;
+}
+
+
+/* 信息收集框 */
+
+.inputShade {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.inputShade .inner {
+    width: 85%;
+    background: #ffffff;
+    border-radius: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.2rem;
+    position: relative;
+}
+
+.inputShade .inner .titImg {
+    border: none;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -1rem;
+    left: 25%;
+}
+
+.inputShade .inner .cancelImg {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    bottom: -1.8rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inputShade .input_title {
+    display: block;
+    text-align: center;
+    color: #ff5363;
+    font-weight: 600;
+    font-size: 0.49rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.inputShade .toInput {
+    padding: 0 0.5rem;
+    margin: 0.3rem 0 0.8rem;
+}
+
+.inputShade .toInput .infoItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1.2rem;
+    border: 1px solid rgba(221, 221, 221, 0.5);
+    position: relative;
+    padding: 0 0.3rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.inputShade .infoTips {
+    width: 0.5rem;
+    height: 0.5rem;
+    display: block;
+    position: absolute;
+    right: 0.3rem;
+}
+
+.inputShade .toInput .name {
+    width: 0.9rem;
+    color: #333333;
+    font-size: 0.4rem;
+    padding-right: 0.1rem;
+    border-right: 1px solid rgba(221, 221, 221, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.inputShade .toInput .nameIcon {
+    width: 0.7rem;
+    height: auto;
+}
+
+.inputShade .toInput input {
+    height: 0.6rem;
+    border-radius: 0.1rem;
+    border: none;
+    width: 70%;
+    font-size: 0.4rem;
+    padding-left: 0.3rem;
+}
+
+.inputShade .sureGet {
+    display: block;
+    text-align: center;
+    width: 41%;
+    margin: 0 auto;
+    font-size: 0.3rem;
+    background: url(../image/icon/btn.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    border-radius: 0.2rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.inputTips {
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+.ewrShow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ewrShow>img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* 加载动画 */
+
+#loading {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.demo3 {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: #ffffff;
+    position: absolute;
+    animation: demo3 linear 0.8s infinite;
+    -webkit-animation: demo3 linear 0.8s infinite;
+}
+
+.demo3:nth-child(1) {
+    left: 24px;
+    top: 2px;
+    animation-delay: 0s;
+}
+
+.demo3:nth-child(2) {
+    left: 40px;
+    top: 8px;
+    animation-delay: 0.1s;
+}
+
+.demo3:nth-child(3) {
+    left: 47px;
+    top: 24px;
+    animation-delay: 0.1s;
+}
+
+.demo3:nth-child(4) {
+    left: 40px;
+    top: 40px;
+    animation-delay: 0.2s;
+}
+
+.demo3:nth-child(5) {
+    left: 24px;
+    top: 47px;
+    animation-delay: 0.4s;
+}
+
+.demo3:nth-child(6) {
+    left: 8px;
+    top: 40px;
+    animation-delay: 0.5s;
+}
+
+.demo3:nth-child(7) {
+    left: 2px;
+    top: 24px;
+    animation-delay: 0.6s;
+}
+
+.demo3:nth-child(8) {
+    left: 8px;
+    top: 8px;
+    animation-delay: 0.7s;
+}
+
+.loadingTips {
+    position: absolute;
+    bottom: -0.8rem;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+}
+
+@keyframes demo3 {
+    0%,
+    40%,
+    100% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(3);
+    }
+}
+
+@-webkit-keyframes demo3 {
+    0%,
+    40%,
+    100% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(3);
+    }
+}
+
+
+/*规则弹窗*/
+
+#mask-rule,
+#mask,
+#noMask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#mask-rule .box-rule {
+    position: relative;
+    margin: 20% auto;
+    padding-top: 0.53333333rem;
+    width: 90%;
+    height: 70%;
+    border-radius: 0.26666667rem;
+}
+
+#mask-rule .box-rule .star {
+    position: absolute;
+    left: 50%;
+    top: -1.33333333rem;
+    margin-left: -1.73333333rem;
+    width: 3.45333333rem;
+    height: 1.16rem;
+}
+
+#mask-rule .box-rule h2 {
+    width: 100%;
+    text-align: center;
+    line-height: 0.45333333rem;
+    font-size: 0.45333333rem;
+    font-weight: normal;
+    color: #fff;
+}
+
+#mask-rule .box-rule h2::before,
+#mask-rule .box-rule h2::after {
+    display: inline-block;
+    content: "";
+    width: 0.24rem;
+    height: 0.24rem;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#mask-rule .box-rule h2::before {
+    margin-right: 0.32rem;
+}
+
+#mask-rule .box-rule h2::after {
+    margin-left: 0.32rem;
+}
+
+#mask-rule #close-rule {
+    position: absolute;
+    right: 0.45333333rem;
+    top: 0.50666667rem;
+    width: 0.53333333rem;
+    height: 0.53333333rem;
+    background-image: url("../image/rule/close.png");
+}
+
+
+/*内容盒子*/
+
+#mask-rule .con {
+    overflow: auto;
+    position: relative;
+    margin: 0.53333333rem auto;
+    /*padding-right: 0.2rem;*/
+    width: 7.73333333rem;
+    height: 82%;
+    line-height: 0.64rem;
+    font-size: 0.34666667rem;
+    color: #fff;
+}
+
+#mask-rule .con .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: auto;
+}
+
+
+/*中奖提示*/
+
+#mask,
+#noMask {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+#mask .blin {
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/redPack/gold.png");
+    -o-animation: circle 10s linear infinite;
+    -ms-animation: circle 10s linear infinite;
+    -moz-animation: circle 10s linear infinite;
+    -webkit-animation: circle 10s linear infinite;
+    animation: circle 10s linear infinite;
+}
+
+@keyframes circle {
+    0% {
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+#mask .caidai {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/redPack/dianzhui.png");
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#mask .winning,
+#noMask .winning {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 8rem;
+    height: 6.8rem;
+    margin: -3.46666667rem 0 0 -4rem;
+    -o-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+}
+
+#mask .reback,
+#noMask .reback {
+    -o-animation: reback .5s linear forwards;
+    -ms-animation: reback .5s linear forwards;
+    -moz-animation: reback .5s linear forwards;
+    -webkit-animation: reback .5s linear forwards;
+    animation: reback .5s linear forwards;
+}
+
+@keyframes reback {
+    100% {
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        -moz-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.winning .red-head {
+    position: relative;
+    top: -0.33333333rem;
+    width: 100%;
+    height: 4.46666667rem;
+    background-image: url("../image/redPack/top.png");
+}
+
+.winning .red-body {
+    position: relative;
+    top: -2.13333333rem;
+    z-index: 2;
+    width: 100%;
+    height: 6.1rem;
+    /* height: 4.8rem; */
+    background-image: url("../image/redPack/bottom_02.png");
+}
+
+.winning .red-body.no-red-body {
+    height: 4.8rem;
+    background-image: url("../image/redPack/bottom2.png");
+}
+
+.winning #card,
+.winning #noCard {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    margin-left: -3.2rem;
+    margin-top: -1.06666667rem;
+    width: 80%;
+    height: 4.26666667rem;
+    background-image: url("../image/redPack/middle.png");
+    -o-transition: top .5s;
+    -ms-transition: top .5s;
+    -moz-transition: top .5s;
+    -webkit-transition: top .5s;
+    transition: top .5s;
+}
+
+#card .win {
+    display: block;
+    margin: 0.13333333rem auto;
+    width: 92%;
+    height: 3.86666667rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../image/prize/prize2.png"); */
+}
+
+#noCard .noWin {
+    display: block;
+    margin: 0.13333333rem auto;
+    width: 70%;
+    height: 3.86666667rem;
+    background-image: url("../image/prize/noPrize.png");
+}
+
+.winning .pull {
+    -o-animation: card .5s linear forwards;
+    -ms-animation: card .5s linear forwards;
+    -moz-animation: card .5s linear forwards;
+    -webkit-animation: card .5s linear forwards;
+    animation: card .5s linear forwards;
+}
+
+@keyframes card {
+    100% {
+        margin-top: -3.2rem;
+    }
+}
+
+.winning .btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    /* bottom: 10%; */
+    z-index: 2;
+    width: 4.85333333rem;
+    height: 0.94666667rem;
+    margin-left: -2.42666667rem;
+    background-image: url("../image/redPack/button.png");
+    -o-animation: shake .5s 2 linear alternate;
+    -ms-animation: shake .5s 2 linear alternate;
+    -moz-animation: shake .5s 2 linear alternate;
+    -webkit-animation: shake .5s 2 linear alternate;
+    animation: shake .5s 2 linear alternate;
+}
+
+@keyframes shake {
+    50% {
+        -o-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -o-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+}
+
+#close,
+#noClose {
+    opacity: 0;
+    position: absolute;
+    right: 0rem;
+    top: -1.06666667rem;
+    z-index: 10;
+    width: 0.85333333rem;
+    height: 0.85333333rem;
+    background-image: url("../image/redPack/close.png");
+    -o-animation: fadein .5s .5s linear forwards;
+    -ms-animation: fadein .5s .5s linear forwards;
+    -moz-animation: fadein .5s .5s linear forwards;
+    -webkit-animation: fadein .5s .5s linear forwards;
+    animation: fadein .5s .5s linear forwards;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.loadingText {
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    text-align: center;
+    font-size: .35rem;
+}
+.winning .prizeTips {
+    position: absolute;
+    left: 50%;
+    bottom: 19%;
+    display: block;
+    color: #ffef37;
+    width: 4.85333333rem;
+    /* height: 0.94666667rem; */
+    margin-left: -2.42666667rem;
+    z-index: 2;
+    text-align: center;
+    font-size: 0.38rem;
+    font-weight: 900;
+}
+#card .win img {
+    width: 40%;
+    height: auto;
+}
+

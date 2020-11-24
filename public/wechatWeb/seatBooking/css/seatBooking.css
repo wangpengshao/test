@@ -1,0 +1,230 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:14px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+a:hover{text-decoration:none}
+.swiper1 {
+    width: 100%;
+}
+.swiper1 .selected {
+    color: #0DC7A5;
+    border-bottom: 2px solid #0DC7A5;
+}
+.swiper1 .swiper-slide {
+    font-size: 16px;
+    height: 50px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+.swiper2 {
+    width: 100%;
+}
+.swiper2 .swiper-slide {
+    height: calc(100vh - 50px);
+    /*background-color: #ccc;*/
+    color: #fff;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
+
+.swiper1 {
+    border-bottom: 1px solid #d9d9d9;
+    /*border-top: 1px solid  #d9d9d9;*/
+    background-color: #f3f3f3;
+}
+.orange {
+    color: #fef4e9;
+    border: solid 1px #da7c0c;
+    background: #f78d1d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+    background: -moz-linear-gradient(top, #faa51a, #f47a20);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.diybutton {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    margin: .2em;
+    font: 1.5em 'Microsoft yahei',Arial, Helvetica, sans-serif;
+    padding: .6em 2.5em .65em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius:  1.5em;
+    -moz-border-radius:  1.5em;
+    border-radius: 1.5em;
+    -webkit-box-shadow: 0 2px 3px rgba(0,0,0,.6);
+    -moz-box-shadow: 0 2px 3px rgba(0,0,0,.6);
+    box-shadow: 0 2px 3px rgba(0,0,0,.6);
+}
+.score,.mybooking{
+    width: 95%;
+    margin: .4em auto;
+    font-size: 1.2em;
+    border-radius: .5em;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #d0d0d0;
+}
+.score{
+    background-color: #fff;
+}
+
+.mybooking{
+    background: -webkit-linear-gradient(#f0f0f0, #eeeeee , #f0f0f0); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f0f0f0, #eeeeee, #f0f0f0); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f0f0f0, #eeeeee, #f0f0f0); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f0f0f0, #eeeeee , #f0f0f0); /* 标准的语法 */
+}
+.hotBooking{
+    width: 95%;
+    margin: .4em auto;
+    font-size: 1.3em;
+    border-radius: .5em;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.mybooking li{
+    font-size: .8em;
+    line-height: 1.6em;
+}
+.hotBooking li{
+    /*margin: 10px ;*/
+    margin-right: 10px;
+    font-size: .8em;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.hotBooking li:nth-child(n+2){
+    /*margin: 10px ;*/
+    margin-top: 10px;
+}
+.hotBooking li a{
+}
+.mybooking li{
+    margin: 6px 0;
+}
+.seatnav {
+    background: #fafafa;
+    height: 4.5rem;
+    color: #666666;
+    /*margin-bottom: 0.6rem;*/
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+    border-bottom: 1px solid #d9d9d9;
+}
+.navBox {
+    width: 15rem;
+    margin: 0 auto;
+    padding-top: 0.6rem;
+}
+.cBox {
+    margin: 0 0 0.2rem 0.6rem;
+}
+.a {
+    -moz-box-shadow: 2px 3px 4px #B5B5B5 inset;
+    -webkit-box-shadow: 2px 3px 4px #B5B5B5 inset;
+    box-shadow: 2px 3px 4px #B5B5B5 inset;
+}
+.outerC {
+    width: 2rem;
+    height: 2rem;
+    background: #e8e8e8;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    float: left;
+    position: relative;
+    z-index: 9;
+}
+.b {
+    background: #0dc7a2;
+}
+.innerC {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.4rem;
+    border-radius: 0.7rem;
+}
+.line {
+    width: 4.4rem;
+    height: 0.6rem;
+    background: #e8e8e8;
+    float: left;
+    margin: 0.7rem 0 0 -4px;
+    -moz-box-shadow: 0px 2px 4px #B5B5B5 inset;
+    -webkit-box-shadow: 0px 2px 4px #B5B5B5 inset;
+    box-shadow: 0px 2px 4px #B5B5B5 inset;
+    border-bottom: 1px solid #dcdadb;
+}
+.d {
+    margin-left: -4px;
+    -moz-box-shadow: -2px 3px 3px #B5B5B5 inset;
+    -webkit-box-shadow: -2px 3px 3px #B5B5B5 inset;
+    box-shadow: -2px 3px 3px #B5B5B5 inset;
+}
+.e {
+    background: #909696;
+}
+.clear {
+    clear: both;
+}
+.fL {
+    float: left;
+}
+.fR {
+    float: right;
+}
+.fc{
+    text-align: center;
+}
+
+.btBtnArea {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 0;
+}
+.btBtnArea div {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    padding: .8rem 0;
+}
+.btBtnArea div {
+    color: #666666;
+    background: #f1f1f1;
+    border-top: 1px solid #d8d8d8;
+}
+.nextUrl {
+    color: #fff!important;
+    /*background: #20a6fd!important;*/
+    background: #0EC7AB!important;
+    border-top: 1px solid #0EC7AB!important;
+}
+.failure {
+    color: #d3d3d3!important;
+    border-left: 1px solid #d8d8d8;
+    box-sizing: border-box;
+}

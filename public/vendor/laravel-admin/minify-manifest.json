@@ -1,0 +1,12 @@
+{
+    "css": [
+        "vendor/laravel-admin/laravel-admin.min.css?id=7c3c81eccd3e9c3367753c028b8c4e22",
+        "vendor/laravel-admin/sweetalert2/dist/sweetalert2.css"
+    ],
+    "js": [
+        "vendor/laravel-admin/laravel-admin.min.js?id=59a473839f8217e9c2dfc6722bf4f9f3",
+        "vendor/ckeditor4.12.1/ckeditor.js",
+        "//map.qq.com/api/js?v=2.exp&key=33TBZ-6S23J-JTNF7-FEG7A-47AYO-7VBIN",
+        "vendor/laravel-admin/sweetalert2/dist/sweetalert2.min.js"
+    ]
+}

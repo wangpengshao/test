@@ -1,0 +1,235 @@
+.seat_show, .seat_show_two {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f1;
+    background-color: #fafafa;
+    font-size: .7rem;
+}
+.seat_show ul, .seat_show_two ul {
+    overflow: hidden;
+    padding: .5rem .8rem;
+}
+
+.seat_show ul li, .seat_show_two ul li {
+    float: left;
+    text-align: center;
+}
+
+.seat_show ul li i {
+    float: left;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    background-image: url('../images/seats.png');
+    background-size: 100% auto;
+}
+
+.seat_show_two ul li i {
+    float: left;
+    margin-top: 8px;
+    width: 8px;
+    height: 8px;
+    /*background: #0699ee;*/
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+
+.seat_show ul li span, .seat_show_two ul li span {
+    float: left;
+    padding-right: .8rem;
+    padding-left: .2rem;
+    line-height: 1.6rem;
+}
+
+.seat_show ul li + li i {
+    background-position: 0 -40px;
+}
+
+.seat_show ul li + li + li i {
+    background-position: 0 -20px;
+}
+
+.seat_show ul li + li + li + li i {
+    background-position: 0 -60px;
+}
+.seat_show ul li + li + li + li + li  i {
+    background-position: 0 -80px;
+}
+.options {
+    font-size: 1rem;
+    color: #666666;
+    height: 2.4rem !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #c0c0c0;
+    border-radius: .8rem;
+    margin: 10px;
+}
+
+.selectedOne span {
+    color: white;
+    background-color: #0dc7a2;
+    border: 1px solid white;
+}
+
+.seat_choose {
+    position: relative;
+    overflow: hidden;
+    background-color: #f7f7f8;
+    text-align: center;
+}
+
+.seat_choose p {
+    margin-top: -6px;
+    font-size: 9px;
+    color: #767577;
+}
+
+.number {
+    float: left;
+    width: 4%;
+    background-color: #0CF;
+    border-radius: 4px;
+    margin: 60px auto 30px auto;
+}
+
+.number ul {
+    overflow: hidden;
+}
+
+.number ul li {
+    float: left;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    padding: 7px 0;
+    color: #fff;
+}
+
+.crossnum {
+    float: left;
+    width: 100%;
+    background-color: #0CF;
+    border-radius: 4px;
+    /*margin: 3px auto;*/
+}
+
+.crossnum ul {
+    overflow: hidden;
+}
+
+.crossnum ul li {
+    float: left;
+    width: 46px;
+    /*padding: 2px 0;*/
+    text-align: center;
+    color: #fff;
+}
+
+.seats {
+    float: left;
+    width: 96%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.seats > ul {
+    width: 933px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    border: 1px dashed #32abc5;
+}
+.seats > ul > li {
+    float: left;
+    width: 46px;
+    height: 50px;
+    overflow: hidden;
+    padding: 2px 0;
+}
+.seats ul li label {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/seats.png');
+    background-size: 100% auto;
+}
+.seats ul li input:checked ~ label {
+    background-position: 0 -30px;
+}
+.seats ul li input {
+    display: none;
+}
+.seats ul li.selected input ~ label {
+    background-position: 0 -60px;
+}
+.seats ul li.selectedTwo input ~ label {
+    background-position: 0 -120px;
+}
+.seats ul li.selectedThree input ~ label {
+    background-position: 0 -90px;
+}
+
+.the_best {
+    position: absolute;
+    top: 377px;
+    left: 418px;
+    width: 420px;
+    height: 380px;
+    border: 2px dashed #ee7a7d;
+    border-radius: 4px;
+    z-index: -1;
+}
+.draggable {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #000000;
+    border-radius: 1.4rem;
+    /*margin: 3px;*/
+    float: left;
+    text-align: center;
+    line-height: 1.4rem;
+    /*font-weight: bold;*/
+    /*font-size: 19px;*/
+    color: white;
+}
+.test {
+    height: 10px;
+    line-height: 10px;
+}
+
+.test > i {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.attone {
+    background: #0699ee;
+}
+
+.atttwo {
+    background: #00ee1e;
+}
+body{
+    background-color: #f7f7f8;
+}
+

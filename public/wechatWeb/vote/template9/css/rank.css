@@ -1,0 +1,108 @@
+
+.rankArea{
+  margin-bottom: 100px;
+}
+
+.rankTable{
+  width:100%;
+  text-align: center;
+}
+
+.rankTable tr{
+  padding:5px 0;
+}
+
+.rankTable th{
+  color:#fff;
+  font-size: 20px;
+  font-weight: normal;
+  background:#e83e33;
+  padding:12px 0;
+}
+
+.rankTable th span{
+  width:100%;
+  display:inline-block;
+  border-right: 1px solid #fff;
+}
+
+.rankTable tr th:last-of-type span{
+  border-right: none;
+}
+
+.rankTable td{
+  font-size: 18px;
+  padding:26px 0;
+  color:#979797;
+}
+
+.tbContext:nth-child(2n+1) {
+    background-color: #f9f9f9;
+}
+
+.tbContext>td:nth-child(2n+1){
+  color:#313131;
+}
+
+.tbContext>td.rankNumFront{
+  color:#ee3e3e;
+  position:relative;
+}
+
+
+.FrontIcon{
+  width: 32px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ position: absolute;
+ left:54px;
+ top: 45%;
+ margin-top: -11px;
+}
+
+.FrontOneIcon{background-image:url(../images/front0ne.png);}
+.FrontTwoIcon{background-image:url(../images/frontTwo.png);}
+.FrontThreeIcon{background-image:url(../images/frontThre.png);}
+
+
+@media (max-width:750px) {
+  .actNumTit{font-size: .24rem; padding-top: 0;}
+  .actNum,.actEndTmIn{font-size: 0.28rem; }
+  .actHint{font-size:.24rem;text-align: left;}
+  .actEndTmIcon{width:.68rem;height:.68rem;margin-right: .2rem;}
+  .actNumberArea,.actDetArea{padding:.28rem;}
+  .entrieBg{  width: 1.64rem;  height: .27rem;}
+
+  .entTit{font-size: .28rem;padding:.18rem;}
+  .entMes{font-size: .26rem;padding:0 .18rem;height:.8rem;}
+  .entWriteLine{font-size: .28rem; padding:.12rem .18rem;}
+  .goSignBtn{font-size: .26rem;}
+  .entrieTit{font-size:.32rem;}
+  .actEndTimeAreaIn{width:82%; margin-top: 18%;}
+  .likeIcon{width:.2rem;height:.16rem; margin-top: -.04rem;}
+  .lookIcon {width:.24rem; height:.14rem;margin-top: -.06rem;}
+  .entTopTip{font-size: .24rem; padding: .06rem .25rem;}
+  .bannerArea .swiper-container{height:8rem;}
+  .bannerImg{height:100%;}
+  .bannerArea .swiper-pagination-bullet {width: 30px; height: 4px;}
+  .actNumberIn::after{height:.4rem;}
+  .actEndTmCon{width:84%;}
+  .entHeadTab{margin-top: 8%; padding-bottom: 6%;}
+  .entHeadTabLink{font-size: .28rem;}
+  .likeIcon, .lookIcon{margin-right: .1rem;}
+  .perImg{width: .34rem;height:.34rem;}
+  .ftSize28{font-size: .3rem; }
+  .moreEntrieLink{font-size:.36rem;padding:.08rem .4rem;}
+  .actDet{bottom: 24%;}
+
+
+  .FrontIcon{width:.32rem;height:.22rem;left: 0;margin-top: -.11rem;}
+ .mbMenuAreaIn{padding:0 .2rem;}
+  .mbMenuAreaIn ul li a,.rankTable th{font-size: .28rem; padding:.2rem 0;}
+  .rankTable td{font-size: .26rem; padding:.26rem 0;}
+}
+
+
+
+

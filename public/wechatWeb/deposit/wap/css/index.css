@@ -1,0 +1,463 @@
+.headerArea{
+    width: 100%;
+    height:5.94rem;
+    background: #5fafeb url(../img/headBg.png) no-repeat center bottom;
+    background-size: 100% 1.16rem;
+    overflow: hidden;
+}
+.search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10%;
+    height: 1rem;
+    background: #fff url('../img/search.png') center/.6rem no-repeat;
+    outline:none;
+    cursor: pointer;
+}
+.logoArea{
+    width: 4.92rem;
+    height: 2.36rem;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 1.82rem auto 0;
+}
+
+.loginFm{
+    margin: 2.12rem .44rem 0;
+}
+
+.loginGrop{
+    border-bottom: 0.01rem solid #c5c5c5;
+    padding:.3rem 0;
+    margin-bottom: .7rem;
+}
+
+.loginIcon{
+    width:.46rem;
+    height:.46rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    vertical-align: middle;
+    margin:-0.15rem .74rem 0 0.9rem;
+}
+
+.acutIcon{
+    background-image: url(../img/acutIcon.png);
+}
+
+.pwdIcon{
+    background-image: url(../img/pwdIcon.png);
+}
+
+.loginInp{
+    font-size: .42rem;
+    outline: none;
+    width: 54%;
+}
+
+.pwdLookIcon{
+    float:right;
+    margin: .1rem .8rem 0 0;
+    background-image: url(../img/pwdClose.png);
+}
+
+.pwdLookIcon.hasTap{
+    background-image: url(../img/pwdClose02.png);
+}
+
+.loginBtnArea{
+    width: 100%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    background: -webkit-linear-gradient(to right,#58a4d9,#59b6db);
+    background: -moz-linear-gradient(to right,#58a4d9,#59b6db);
+    background: -ms-linear-gradient(to right,#58a4d9,#59b6db);
+    background: -o-linear-gradient(to right,#58a4d9,#59b6db);
+    background: linear-gradient(to right,#58a4d9,#59b6db);
+    -webkit-border-radius: 0.12rem;
+    -moz-border-radius: 0.12rem;
+    -ms-border-radius: 0.12rem;
+    -o-border-radius: 0.12rem;
+    border-radius: 0.12rem;
+    overflow: hidden;
+}
+
+.loginBtnArea input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: none;
+    color: #fff;
+    font-size: .48rem;
+    outline: none;
+}
+
+.loginLine{
+    font-size :0.42rem;
+    color: #5fafeb;
+    text-align:center;
+    margin-top: .75rem;
+}
+
+.loginLine span{
+    padding:0 .38rem;
+}
+
+.loginLine::before,.loginLine::after{
+    content: '';
+    width:36%;
+    height: 1px;
+    background:#5fafeb;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.resFmGrop{
+    background: #fff;
+    padding: 0 .44rem;
+}
+
+.resFmGropIn{
+    padding: .46rem 0;
+    font-size: .42rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+
+.resFmTit{
+    width: 1.8rem;
+    display: inline-block;
+}
+
+.resFmInp{
+    outline: none;
+    width: 70%;
+}
+
+.resFmOhter{
+    font-size: .42rem;
+    margin-top: .3rem;
+    padding:.46rem .44rem;
+    background: #fff;
+    display: block;
+}
+
+.nextBtn{
+    padding: 0 .44rem;
+    margin-top: 4rem;
+}
+
+.nextBtnInp{
+    width: 100%;
+    height: 1.2rem;
+    color: #fff;
+    -webkit-border-radius: .15rem;
+    border-radius:.15rem;
+    outline: none;
+}
+
+.wrapper01 {
+    position:relative;
+    height: 1.4rem;
+    width: 100%;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.wrapper01 .scroller {position:absolute;}
+
+.wrapper01 .scroller li {
+    float: left;
+    font-size: .36rem;
+    text-align: center;
+}
+
+.wrapper01 .scroller li a{
+    font-size: .32rem;
+    color:#999999;
+    display:block;
+    height: 1.4rem;
+    padding-top: .1rem;
+    margin:0 .54rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper01 .scroller li.cur a{
+    color:#333;
+    border-bottom: 0.08rem solid #5fafeb;
+}
+
+
+.orderStatuArea{
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); */
+}
+
+.orderStatuImg{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin:0 auto .6rem;
+}
+
+.orderSucImg{
+    width:4.26rem;
+    height: 3.79rem;
+    background-image:url(../img/orderSucIcon.png);
+}
+
+.orderFailImg{
+    width: 6.11rem;
+    height:4.24rem;
+    background-image: url(../img/orderFailIcon.png);
+}
+
+.orderStatuHint{
+    width: 100%;
+    text-align: center;
+    font-size:.48rem;
+    padding-bottom: .66rem;
+    position: fixed;
+    left: 50%;
+    top: 46%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.statuSuc{
+    color:#5fafeb ;
+}
+
+.dayTm,.timeLineLi.timeLineLiCur .timeLineLink,.busiTypeTit{
+    color:#333;
+}
+
+.statuFail{
+    color: #999;
+}
+
+.orderSucDet{
+    font-size: .36rem;
+    color:#333;
+    text-align: left;
+    width: 58%;
+    margin: .7rem auto ;
+}
+
+.orderSucDet p{
+    padding-bottom: .1rem;
+}
+
+.colorRed{
+    color:#eb6d75;
+}
+
+.orderStatuBtnIn,.headTabLi.headTabCur .headTabLink,.nextBtnInp{
+    background:-webkit-linear-gradient(left,#58a4d9,#59b6db);
+    background:linear-gradient(to right,#58a4d9,#59b6db);
+}
+
+.orderStatuBtnIn{
+    width: 100%;
+    height:1.2rem;
+    line-height:1.2rem;
+    text-align: center;
+    font-size:.48rem;
+    display: block;
+    color:#fff;
+    -webkit-border-radius: .15rem;
+    border-radius: .15rem;
+    outline: none;
+}
+
+.orderStatuBtnIn:disabled{
+    background: #cccccc;
+    color: #fff;
+}
+
+
+.orderFailBtn{
+    margin-top: 2.2rem;
+}
+
+.headTab{
+    margin:.2rem 0.44rem;
+}
+
+.headTabUl{
+    height:.96rem;
+    background:#fff;
+    border:0.01rem solid #e5e5e5;
+    -webkit-border-radius:.1rem;
+    border-radius:.1rem;
+    display: -webkit-flex;
+    display:flex;
+    overflow: hidden;
+}
+
+.headTabLi{
+    width:50%;
+    height:.96rem;
+    line-height:.96rem;
+    text-align: center;
+}
+
+.headTabLink{
+    font-size: .48rem;
+    color:#333333;
+    display:block;
+
+}
+
+.headTabLi.headTabCur .headTabLink{
+    color:#fff;
+}
+
+.readCardArea{
+    margin-top: .2rem;
+    background: #e6e6e6;
+    -webkit-border-radius: .1rem;
+    border-radius: .1rem;
+    border: 1px solid #d5d5d5;
+}
+
+.readCardArea input{
+    outline:none;
+    width: 100%;
+    height:1rem;
+    background:none;
+    padding:0 .2rem;
+}
+
+.timeLine{
+    background:#fff;
+    font-size: 0.36rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+}
+
+.busiTypeLine{
+    background:#fff;
+    height:1.2rem;
+    line-height:1.2rem;
+    padding:0 .44rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position:relative;
+    margin-bottom: .32rem;
+}
+
+.dayStageLine{
+    background:#fff;
+    padding:0 .44rem;
+    margin-top: .32rem;
+}
+
+.dayStageLineTop{
+    color:#111;
+    font-size: 0.36rem;
+    height:1.19rem;
+    line-height:1.19rem;
+    border-bottom: 0.01rem solid #e5e5e5;
+    overflow:hidden;
+}
+
+.surpNum{
+    float:right;
+}
+
+.dayStageCon{
+    padding:.2rem 0;
+}
+.surpNumIn{
+    color:#5fafeb;
+}
+
+.dayStageConUl{
+    overflow:hidden;
+}
+
+.dayStageConLi{
+    text-align: center;
+    color:#666;
+    float:left;
+    width: 27%;
+    height: 1.12rem;
+    line-height: 1.12rem;
+    border: 0.04rem solid #cccccc;
+    -webkit-border-radius: .08rem;
+    border-radius: .08rem;
+    margin:.2rem 8% .1rem 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dayStageConLi:nth-of-type(3n){
+    margin-right: 0;
+}
+
+.dayStageConTm{
+    font-size: .36rem;
+}
+
+.dayStageConNum{
+    font-size:0.3rem;
+}
+
+.resFull{
+    color:#999999;
+    background:#eeeeee;
+}
+
+.chosedStage{
+    border-color: #5fafeb;
+    color:#5fafeb;
+    position:relative;
+}
+
+.chosedStage::after {
+    content: '';
+    width:0.6rem;
+    height:0.6rem;
+    background:url(../img/choseIcon.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right:-1px;
+    bottom:-1px;
+}
+
+.dayStageArea{
+    margin-bottom: 1.85rem;
+}
+
+.confStageBot{
+    width:92%;
+    text-align: center;
+    position:fixed;
+    left:50%;
+    bottom:0.1rem;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.hisCon{
+    font-size: .36rem;
+}
+
+.hisTm{
+    color:#999;
+}
+
+.hisCon{
+    padding:.24rem 0;
+    font-size: .36rem;
+    color:#666666;
+}
+
+.hisConLine{
+    overflow: hidden;
+    padding-bottom: .1rem;
+}

@@ -1,0 +1,292 @@
+/*报名*/
+.leaveMesTit{position:relative;}
+
+.leaveMesTitIn::before {
+  content: '';
+  width:4px;
+  height:16px;
+  background:#000000;
+  display:inline-block;
+  vertical-align: middle;
+  margin:-2px 6px 0 0;
+}
+
+.signUpLine{ margin-top: 15px;  }
+
+.signUpTit{
+  padding:20px 0;
+  position:relative;
+}
+
+.signUpIn{
+  padding-left: 14%;
+}
+
+.upWorkHint{
+    font-size:14px ;
+    position:absolute;
+    left:25%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+         -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.signUpForm{
+  margin:16px 0 0 0;
+}
+
+.signUpFmGroup{
+  margin-bottom: 22px;
+  font-size: 16px;
+}
+
+.signUpInp,.choseArea{
+  display:inline-block;
+  vertical-align: middle;
+  margin-left:2%;
+}
+
+.signUpInp{
+  width: 46%;
+  border: 1px solid #dddddd;
+  padding:10px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  position:relative;
+}
+
+.signUpSel{
+  width: 15%;
+}
+
+
+.signUpInp select,.signUpInp input[type=text],.signUpInp textarea{
+  width: 100%;
+  color:#333333;
+}
+
+
+.signUpInp select,.signUpInp textarea{
+    resize: none;
+    outline: none;
+    font-family:"微软雅黑";
+}
+
+.wSpace{
+  width:3.4%;
+  display:inline-block;
+}
+
+.errHint{
+  position:absolute;
+  right: -38%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.errHintIcon{
+  width: 16px;
+  height: 16px;
+  background:url(../images/errorIcon.png) no-repeat;
+  background-size: 100% 100%;
+  display:inline-block;
+  vertical-align: middle;
+  margin: -4px 5px 0 0;
+}
+
+.signUpTit{position:relative;}
+
+.borderBt{
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.must{
+  color:#e83e33;
+  
+}
+
+.iosScroll {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.add-pic,.add-pic2{
+    width:250px;
+    height: 170px;
+    float: left;
+    background:#f5f5f5 ;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position:relative;
+        margin: 10px;
+}
+
+.addHint{
+  font-size: 16px;
+  color:#999;
+  position:absolute;
+  left:50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+     -moz-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+       -o-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+.addIcon{
+  width: 40px;
+  height: 40px;
+  background:url(../images/addBtn.png) no-repeat;
+  background-size: 100% 100%;
+  display:inline-block;
+}
+
+.add-pic input,.add-pic2 input {
+    visibility: hidden;
+}
+
+.up-img-area-con{
+    width:75%;
+    display:inline-block;
+    vertical-align: top;
+    margin-left: 1%;
+}
+
+.up-img-area{
+    /*width:900%;*/
+    display: inline-block;
+    overflow: hidden;
+}
+
+.up-img-area .mypicture,.up-img-area2 .mypicture2 {
+    float: left;
+    width: 250px;
+    height:160px;
+    margin:10px;
+    position: relative;
+  -webkit-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+
+.del-per,.del-per2 {
+    width: 30px;
+    height:30px;
+    background: url(../images/del.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.conFirBtn{
+  margin:60px auto;
+  cursor:pointer;
+  text-align: center;
+}
+
+
+.conFirBtnInp{
+  background:#e83e33;
+  display:inline-block;
+  color:#fff;
+  font-size: 18px;
+  padding:10px 45px;
+  border-radius: 6px;
+}
+
+.choseSingle{
+  padding-right: 10px;
+}
+
+.signUpFmGroup .signUpTit{
+    text-align: right;
+    width: 20%;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px;
+}
+
+.upImgAreaIn{
+  margin: -30px 0 0 148px;
+}
+
+.colorRed{color:#e83e33;}
+
+.picSizeHint{padding-left: 23%;}
+
+
+@media (max-width:750px) {
+
+.leaveMesTitIn::before{width:0.04rem;height:0.22rem;margin:-0.02rem 0.06rem 0 0;}
+
+/*报名*/
+.signUpIn{
+  padding-left: .24rem;
+}
+.signUpTit{padding:.2rem 0;}
+
+.upWorkHint{font-size: .22rem;}
+.signUpFmGroup,.signUpInp select, .signUpInp input, .signUpInp textarea,.choseSingle{font-size: .26rem;}
+
+.wSpace{width:8.2%;}
+.signUpFmGroup{margin-bottom: .22rem;}
+.signUpInp{
+  width: 66%;
+  padding:.1rem;   
+ -webkit-border-radius: .05rem;
+    border-radius: .05rem;
+    position:relative;
+  }
+.signUpSel{width:38%;}
+.errHint{font-size: .22rem;right:.1rem;}
+.errHintIcon{width: 0.2rem;height:0.2rem;margin:-.06rem .04rem 0 0;}
+.signUpInp input.phoneInp{width: 52%;}
+.add-pic,.up-img-area .mypicture{width: 2.5rem;height:1.7rem;margin:.1rem;}
+.addIcon{width: 0.4rem;height:0.4rem;}
+.addHint{width:60%;font-size: .24rem;}
+.conFirBtn{margin:.6rem 0;}
+.conFirBtnInp{font-size: .28rem;  padding: .1rem .45rem; -webkit-border-radius: .06rem;border-radius: .06rem;}
+select{-webkit-appearance:none;background:none;}
+.del-per{width:.4rem;height:.4rem;}
+
+.selDown{width:.1rem;height:.08rem;background:url(../images/selDown.png) no-repeat;background-size:100% 100%;position:absolute;right:.1rem;top: 50%; -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);}
+}
+.upload_area .post_imglist li {
+    position: relative;
+    float: left;
+    padding: 0 10px 5px 0;
+    line-height: 38px;
+}
+
+#imglist > li{
+    position: relative;
+    float:left;
+    margin-right: 5px;
+    width:33%;
+    border: 1px solid #eee;
+}
+#imglist span {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    width: .26rem;
+    height: .26rem;
+    background: url(../images/del.png)  no-repeat center;
+}
